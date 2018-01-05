@@ -1,0 +1,2 @@
+INSERT INTO `dede_member_msg` VALUES('1','2','kutu','119.130.99.193','1','1412132749','心情不好');
+INSERT INTO `dede_member_msg` VALUES('2','2','kutu','119.130.99.193','1','1412132756','今天天气不错啊');

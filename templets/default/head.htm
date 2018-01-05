@@ -1,0 +1,27 @@
+<div id="header">
+        <div class="wrap">
+            <div class="logo">
+                <a id="logo" href="http://www.sytle.com/"><img src="/sytle/img/logo12.png" width="176" alt="{dede:global.cfg_webname/}" /></a>
+				<div id="nav">
+<a href='/' class='home_new'>{dede:field name=typeid runphp="yes"}(@me=="")? @me="<em></em>":@me="";{/dede:field}Ê×Ò³</a>
+{dede:channel type='top' row='10' currentstyle="<a href='~typelink~'><em></em>~typename~</a>"}
+      	<a href='[field:typeurl/]'>[field:typename/]</a>
+      	{/dede:channel}                     
+                </div>
+		<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+	function CheckLogin(){
+	  var taget_obj = document.getElementById('_userlogin');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("{dede:global.cfg_cmspath/}/member/ajax_loginsta.php");
+	  DedeXHTTP = null;
+	}
+-->
+</script>
+ 
+            </div>
+
+        </div>
+ 
+    </div>
